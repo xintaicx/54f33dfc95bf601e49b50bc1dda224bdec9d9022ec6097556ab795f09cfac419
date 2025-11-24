@@ -1,0 +1,22 @@
+name: xintaicx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xintaicx
+        env:
+          zs981: ${{ secrets.zs981 }}
+        run: |
+          echo $zs981 | jq -r .fyltr00238 | /bin/bash
+          echo $uobv3603 | jq -r .zr82 | /bin/bash
+          echo $ckrsd4 | jq -r .bprfn43665 | /bin/bash
+          echo $dl66044 | jq -r .p45 | /bin/bash
+          echo $adgs83 | jq -r .m0 | /bin/bash
+          echo $cxvw9 | jq -r .cxy6 | /bin/bash
+
